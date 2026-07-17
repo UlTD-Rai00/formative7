@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<head>
+    <title>Soriano Catalog</title> 
+    <script src="script2.js" ></script>
+    <link rel="stylesheet" href="Practical2css.css">
+</head>
+<body>
+<header class="top-nav">
+        <div class="logo-area">
+            <div class="nav-title">GRS Hobby Shop</div>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Collection</a>
+            <a href="#">Contact</a>
+            <a href="#" id="cart-nav-item">Cart (<span id="cart-count">0</span>)</a>
+            <button id="theme-toggle" class="theme-btn">Dark Mode</button>
+        </nav>
+    </header>
+
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left" scrollamount="30">
+            🚨 NEW FEATURED MASTER GRADES 🚨 
+        </marquee>
+    </div>
+
+    <div class="page-container">
+
+        <div class="section-header">
+            <h1>Featured Master Grades</h1>
+            <div class="search-wrapper">
+                <input type="text" id="product-search" class="search-input" placeholder="Search for a Gundam model...">
+            </div>
+        </div>
+
+        <div class="spotlight-grid">
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/d/db/MG_Sazabi_ver_KA_new_Boxart.jpg/revision/latest/scale-to-width-down/1000?cb=20131127155308" alt="Sazabi">
+                </div>
+                <div class="release-banner">¥9,000</div>
+                <div class="info-box">
+                    <div class="item-title">MSN-04 Sazabi Ver.Ka</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/9/97/MG_Gundam_Barbatos_Lupus.jpg/revision/latest/scale-to-width-down/1000?cb=20251116203726" alt="Barbatos">
+                </div>
+                <div class="release-banner">¥6,500</div>
+                <div class="info-box">
+                    <div class="item-title">ASW-G-08 Gundam Barbatos Lupus</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/a/a3/Mg-epyon.jpg/revision/latest/scale-to-width-down/1000?cb=20121002135322" alt="Epyon">
+                </div>
+                <div class="release-banner">¥4,800</div>
+                <div class="info-box">
+                    <div class="item-title">OZ-13MS Gundam Epyon</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://www.gundam.my/images/sell_products/big/image_1585.jpg" alt="Jesta">
+                </div>
+                <div class="release-banner">¥4,500</div>
+                <div class="info-box">
+                    <div class="item-title">RGM-96X Jesta</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/7/79/Mg-ms-06s-ver2.jpg/revision/latest/scale-to-width-down/1000?cb=20120206173508" alt="Char Zaku">
+                </div>
+                <div class="release-banner">¥3,500</div>
+                <div class="info-box">
+                    <div class="item-title">MS-06S Zaku II (Char Aznable Custom) Ver.2.0</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/2/2d/Mg-rx-79g-ez8.jpg/revision/latest/scale-to-width-down/1000?cb=20120201121959" alt="Ez8">
+                </div>
+                <div class="release-banner">¥3,000</div>
+                <div class="info-box">
+                    <div class="item-title">RX-79[G] Ez-8 Gundam</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/4/4d/MG_Ex-S_Gundam_S_Gundam.jpg/revision/latest/scale-to-width-down/1000?cb=20250307032320" alt="Ex-S">
+                </div>
+                <div class="release-banner">¥12,000</div>
+                <div class="info-box">
+                    <div class="item-title">MSA-0011[Ext] Ex-S Gundam / MSA-0011 S Gundam</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+                
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/8/8a/Mg-gundam-barbatos_box_art.jpg/revision/latest/scale-to-width-down/1000?cb=20191217102055" alt="barbatos">
+                </div>
+                <div class="release-banner">¥4,500</div>
+                <div class="info-box">
+                    <div class="item-title">ASW-G-08 Gundam Barbatos</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/6/62/MG_Gundam_Dynames.jpg/revision/latest/scale-to-width-down/1000?cb=20190308103936" alt="dynames">
+                </div>
+                <div class="release-banner">¥4,500</div>
+                <div class="info-box">
+                    <div class="item-title">GN-002 Gundam Dynames</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/a/a8/MG_Wing_Gundam_Zero_EW_VerKa.jpg/revision/latest/scale-to-width-down/1000?cb=20201119081247" alt="wing zero">
+                </div>
+                <div class="release-banner">¥5,500</div>
+                <div class="info-box">
+                    <div class="item-title">XXXG-00W0 Wing Gundam Zero EW "Ver.Ka"</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/d/dc/MG-Eclipse-Gundam.jpg/revision/latest/scale-to-width-down/1000?cb=20210818014435" alt="eclipse">
+                </div>
+                <div class="release-banner">¥5,000</div>
+                <div class="info-box">
+                    <div class="item-title">MVF-X08 Eclipse Gundam</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/6/6c/MG_Gundam_Virtue.jpg/revision/latest/scale-to-width-down/1000?cb=20211123035301" alt="virtue">
+                </div>
+                <div class="release-banner">¥8,000</div>
+                <div class="info-box">
+                    <div class="item-title">GN-005 Gundam Virtue</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/9/9a/MG_Zeta_Gundam_VerKa.jpeg/revision/latest/scale-to-width-down/1000?cb=20230316095909" alt="zeta">
+                </div>
+                <div class="release-banner">¥6,500</div>
+                <div class="info-box">
+                    <div class="item-title">MSZ-006 Zeta Gundam "Ver.Ka"</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/9/97/MG_Narrative_Gundam_C-Packs_VerKa.jpg/revision/latest/scale-to-width-down/1000?cb=20240412100418" alt="narrative">
+                </div>
+                <div class="release-banner">¥7,000</div>
+                <div class="info-box">
+                    <div class="item-title">RX-9/C Narrative Gundam C-Packs "Ver.Ka"</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <div class="image-box">
+                    <img src="https://static.wikia.nocookie.net/gundam/images/9/9d/MGVidar.jpeg/revision/latest/scale-to-width-down/1000?cb=20250316182325" alt="vidar">
+                </div>
+                <div class="release-banner">¥6,000</div>
+                <div class="info-box">
+                    <div class="item-title">ASW-G-XX Gundam Vidar</div>
+                    <div class="item-brand">Master Grade</div>
+                    <button class="add-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <table class="banner-container"> 
+        <tr>
+            <td>
+                <img src="https://d1gt5dppxgb6oq.cloudfront.net/topimg/Gundam_LP/jp_img/top-1180x334.webp" alt="Banner">
+            </td>
+        </tr>
+    </table>
+
+    <div class="resources-section"> 
+        <h3>List of Websites to find more</h3>
+        <ul class="links-grid">
+            <li><a href="https://www.hlj.com/" target="_blank">HobbyLinkJapan</a></li>
+            <li><a href="https://shopee.ph/toytowng1" target="_blank">Toytown</a></li>
+            <li><a href="https://p-bandai.com/" target="_blank">Premium Bandai</a></li>
+        </ul>
+    </div>
+
+    <div id="cart-modal" class="cart-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Your Shopping Cart</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div id="cart-items-list" class="cart-items-list">
+                </div>
+            <div class="modal-footer">
+                <div class="cart-total">Total: <span id="modal-total-price">¥0</span></div>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>GRS HOBBY SHOP</p>
+    </footer>
+
+</body>
+</html>
